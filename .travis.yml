@@ -8,3 +8,4 @@ before_script:
 - npm install -g @vue/cli
 - npm install --save-dev vue-gh-pages
 - npm run build
+- node ./node_modules/vue-gh-pages/index.js -b gh-pages
